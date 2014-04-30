@@ -17,7 +17,4 @@ simulate and test four different machines:
 
 *.exe file is attached
 
-*for more info on automata theory, look at http://en.wikipedia.org/wiki/Automata_theory
-
-
-<a href="http://en.wikipedia.org/wiki/Automata_theory">automata</a>
+*for more info on automata theory, look at <a  href="http://en.wikipedia.org/wiki/Automata_theory">Wiki</a>
