@@ -20,4 +20,4 @@ simulate and test four different machines:
 *for more info on automata theory, look at http://en.wikipedia.org/wiki/Automata_theory
 
 
-<a>fda<a/>
+<a href="http://en.wikipedia.org/wiki/Automata_theory">automata</a>
