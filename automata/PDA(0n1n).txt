@@ -1,0 +1,25 @@
+c PDA is 5-tuple
+c states,start state,alphabet,accept state(s),transition function
+c enter here everything except the alphabet, alphabet for PDA by default is (0,1,'(',')'). NO need to define here.
+c only 'x' will be pushed/popped from stack. 'push' will push 'x' on stack and 'pop' will pop from stack. '&'=delta which will be pushed automatically on stack before reading the string 
+c only enter the transitions for states that have any
+c --> THIS PDA IS FOR:  0^n1^n for n>0 , PDA shown on pg66 example 7.1 <--
+c Input could be from alphabet {0,1} for testing 
+p = end of comment line
+
+States: A B C D
+
+Start: A
+
+Accept: D
+
+Transition Function:
+
+State:A
+e: B push
+State:B
+0: B push
+1: C pop
+State:C
+1: C pop
+e: D pop

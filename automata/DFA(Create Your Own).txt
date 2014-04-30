@@ -1,0 +1,16 @@
+c DFA is 5-tuple
+c states,start state,alphabet,accept state(s),transition function
+c enter here everything except the alphabet, alphabet for DFA by default is (0,1). NO need to define here
+c e=empty string to test
+c --> Create your own DFA here <--
+c letters are case-sensitive, refer to one of the DFA examples for proper format
+p = end of comment line
+
+States: 
+
+Start: 
+
+Accept: 
+
+Transition Function:
+

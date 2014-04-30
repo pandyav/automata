@@ -1,0 +1,35 @@
+c TM is 7-tuple
+c states,start state,alphabet,accept state(s),transition function,reject state,tape alphabet
+c enter here everything except the alphabet, alphabet for TM by default is (0,1,2,'(',')'). NO need to define here.
+c only enter the transitions for states that have any
+c --> THIS TM IS FOR:  0n1n2n , TM shown on pg121 FYTD 1 <--
+c Input Alphabet is {012} for testing purposes and '&' for the emptry string
+p = end of comment line
+
+States: A B C D E F
+
+Start: A
+
+Accept: F
+
+Transition Function:
+
+State:A
+0: B & R
+x: E x R
+State:B
+0: B 0 R
+1: C x R
+x: B x R
+State:C
+1: C 1 R
+2: D x L
+x: C x R 
+State:D
+0: D 0 L
+1: D 1 L
+x: D x L
+&: A & R
+State:E
+x: E x R
+&: F & S 

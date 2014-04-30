@@ -1,0 +1,44 @@
+c TM is 7-tuple
+c states,start state,alphabet,accept state(s),transition function,reject state,tape alphabet
+c enter here everything except the alphabet, alphabet for TM by default is (0,1,2,'(',')'). NO need to define here.
+c only enter the transitions for states that have any
+c --> THIS TM IS FOR:  binary palindromes (even or odd length) , TM exercise 11.2 pg119 <--
+c Input Alphabet is {01} for testing purposes and '&' for empty string
+p = end of comment line
+
+States: A A0 A1 B0 B1 C0 C1 D h
+
+Start: A
+
+Accept: h
+
+Transition Function:
+
+State:A
+0: A0 & R
+1: A1 & R
+&: h & S
+State:A0
+0: B0 0 R
+1: B0 1 R 
+&: h & S
+State:A1
+0: B1 0 R
+1: B1 1 R 
+&: h & S
+State:B0
+0: B0 0 R
+1: B0 1 R 
+&: C0 & L
+State:B1
+0: B1 0 R
+1: B1 1 R 
+&: C1 & L
+State:C0
+0: D & L
+State:C1
+1: D & L
+State:D
+0: D 0 L
+1: D 1 L
+&: A & R 

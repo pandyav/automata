@@ -1,0 +1,25 @@
+c NFA is 5-tuple
+c states,start state,alphabet,accept state(s),transition function
+c enter here everything except the alphabet, alphabet for NFA by default is (0,1). NO need to define here.
+c e=ebsilon transition; also acts like an alphabet. Only put transitions for states that have any
+c --> THIS NFA IS FOR the RE:  0*+(01)* , nfa shown on pg23 example 3.5 (binary except of letters) <--
+p = end of comment line
+
+States: A B C D E
+
+Start: A
+
+Accept: B E
+
+Transition Function:
+
+State:A
+e: B C
+State:B
+0: B
+State:C
+0: D
+State:D
+1: E
+State:E
+e: C

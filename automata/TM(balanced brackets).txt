@@ -1,0 +1,28 @@
+c TM is 7-tuple
+c states,start state,alphabet,accept state(s),transition function,reject state,tape alphabet
+c enter here everything except the reject state and alphabet, alphabet for TM by default is (0,1,2,'(',')'). NO need to define here.
+c '&'=blank symbol or empty symbol; 'x' could be used for any extra tape symbol 
+c only enter the transitions for states that have any
+c --> THIS TM IS FOR:  Balanced Brackets , TM shown on pg115 example 11.3 <--
+c Input could be '(' and ')' for testing 
+p = end of comment line
+
+States: A B C D
+
+Start: A
+
+Accept: D
+
+Transition Function:
+
+State:A
+(: A ( R
+): B x L
+x: A x R
+&: C & L
+State:B
+(: A x R
+x: B x L
+State:C
+x: C x L
+&: D & S

@@ -1,0 +1,16 @@
+c NFA is 5-tuple
+c states,start state,alphabet,accept state(s),transition function
+c enter here everything except the alphabet, alphabet for NFA by default is (0,1). NO need to define here.
+c e=ebsilon transition; also acts like an alphabet. Only put transitions for states that have any
+c --> create your own NFA here<--
+c letters are case-sensitive, refer to one of the NFA examples for proper format
+p = end of comment line
+
+States: 
+
+Start: 
+
+Accept: 
+
+Transition Function:
+

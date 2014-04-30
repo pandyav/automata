@@ -1,0 +1,27 @@
+c DFA is 5-tuple
+c states,start state,alphabet,accept state(s),transition function
+c enter here everything except the alphabet, alphabet for DFA by default is (0,1). NO need to define here
+c e=empty string to test
+c --> THIS DFA accepts all binary strings where 0s and 1s alternate, pg7 example 1.5(botton) <--
+p = end of comment line
+
+States: A B C D
+
+Start: A
+
+Accept: A B D
+
+Transition Function:
+
+State: A
+0: B
+1: D
+State: B
+0: C
+1: D
+State: C
+0: C
+1: C
+State: D
+0: B
+1: C

@@ -1,0 +1,17 @@
+c TM is 7-tuple
+c states,start state,alphabet,accept state(s),transition function,reject state,tape alphabet
+c enter here everything except the reject state and alphabet, alphabet for TM by default is (0,1,2,'(',')'). NO need to define here.
+c '&'=blank symbol or empty symbol; 'x' could be used for any extra tape symbol 
+c only enter the transitions for states that have any
+c --> Create your own TM here <--
+c letters are case-sensitive, refer to one of the TM examples for proper format
+p = end of comment line
+
+States: 
+
+Start: 
+
+Accept: 
+
+Transition Function:
+

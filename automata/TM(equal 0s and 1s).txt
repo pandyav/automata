@@ -1,0 +1,45 @@
+c TM is 7-tuple
+c states,start state,alphabet,accept state(s),transition function,reject state,tape alphabet
+c enter here everything except the reject state and alphabet, alphabet for TM by default is (0,1,2,'(',')'). NO need to define here.
+c '&'=blank symbol or empty symbol; 'x' could be used for any extra tape symbol 
+c only enter the transitions for states that have any
+c --> THIS TM IS FOR: Equal number of 0's and 1's , TM shown on pg119 exercise 11.13 <--
+c Input could be '(' and ')' for testing 
+p = end of comment line
+
+States: q1 q2 q3 q4 q5 q6 ha
+
+Start: q1
+
+Accept: ha
+
+Transition Function:
+
+State:q1
+0: q2 0 S
+1: q2 1 S
+x: q1 x R
+&: ha & S
+State:q2
+0: q3 x R
+1: q5 x R
+x: q2 x R
+&: q6 & L
+State:q3
+0: q2 0 R
+1: q4 x R
+x: q3 x R
+State:q4
+0: q5 0 R
+1: q3 1 R
+x: q4 x R
+&: q6 & L
+State:q5
+0: q4 x R
+1: q2 1 R
+x: q5 x R
+State:q6
+0: q6 0 L
+1: q6 1 L
+x: q6 x L
+&: q1 & R
