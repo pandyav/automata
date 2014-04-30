@@ -11,6 +11,8 @@ simulate and test four different machines:
 
 -Turing Machine (TM)
 
+:-Machine configuration will be placed in an external .txt file
+
 :-I have provided several examples to simulate and test each machine
 
 *see ReadMe.docx for more info and screen.jpg for the screenshot
