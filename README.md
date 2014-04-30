@@ -17,6 +17,6 @@ simulate and test four different machines:
 
 *see ReadMe.docx for more info and screen.jpg for the screenshot
 
-*.exe file is attached
+*executable is attached
 
 *for more info on automata theory, look at <a  href="http://en.wikipedia.org/wiki/Automata_theory">Wiki</a>
